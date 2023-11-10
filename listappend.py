@@ -9,7 +9,8 @@ members_list = []
 while True:
     name = input("Enter name: ")
     
-    id_no = int(input("Enter ID number: "))
+    id_no = int(input("Enter ID number: ")) #no exceptions handled in the case a user enters a non-integer
+    
     plot_no = int(input("Enter plot number: "))
     members_list.append((name,id_no,plot_no))
     more = None
