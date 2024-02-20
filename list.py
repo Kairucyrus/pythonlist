@@ -26,4 +26,5 @@ while True:
     if more == "N":
         break
     print("\n")
+    print("\n")
 print(f"Name | id_no | plot_no\n {members_list}")
